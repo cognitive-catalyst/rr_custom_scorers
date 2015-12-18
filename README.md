@@ -69,7 +69,7 @@ The same conventions on adding custom scorers apply as in the previous 2 cases.
 ## Putting it all together
 
 ### Configuring scorers
-Add later
+COMING LATER
 
 ### Scorers Object
-Add later
+COMING LATER
