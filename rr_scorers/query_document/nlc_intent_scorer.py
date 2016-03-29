@@ -307,16 +307,11 @@ class QuestionDocumentIntentAlignmentScorer(NLCIntentScorer):
         """
         super(QuestionDocumentIntentAlignmentScorer, self).__init__(name, short_name, description, service_url, \
                                                                     service_username, service_password, classifier_id)
+
+        # TO DO : Provide name value pair of document titles against NLC class for your implementation
+
         self.title_name_to_doc_class = {
-            'definition':'condition_definition',
-            'causes':'condition_cause',
-            'outlook':'condition_outlook',
-            'exams and tests':'condition_test',
-            'treatment':'condition_treatment',
-            'signs and symptoms':'condition_symptoms',
-            'uses of this medicine':'drug_definition',
-            'side effects of this medicine':'drug_side_effects',
-            'warnings':'drug_warnings'
+            '<Enter Document Title Name>':'<Enter NLC Class>',
         }
 
     def doc_to_class(self, doc):
